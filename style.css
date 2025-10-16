@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-45deg, #0077ff,  #00c3ff, #6a00ff, #ff0080);
+    background-size: 400% 400%;
+    animation: Animation 10s ease infinite;
+    color: white;
+    padding: 20px 40px;
+    height: 500px;
+    padding-top: 300px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@keyframes Animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@media only screen and (max-width: 375px){
+    body{
+        background: linear-gradient(-45deg, #0077ff,  #00c3ff, #6a00ff, #ff0080);
+        background-size: 400% 400%;
+        animation: Animation 10s ease infinite;
+        color: white;
+        padding: 20px 40px;
+        height: 500px;
+        padding-top: 200px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}
